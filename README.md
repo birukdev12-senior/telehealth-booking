@@ -1,67 +1,44 @@
----
-
-## 📝 **3. TeleHealth Booking README.md**
-
-`github.com/birukdev12-senior/telehealth-booking` 
-
-```markdown
 # 🏥 TeleHealth Booking App
 
-A full‑stack healthcare appointment booking platform connecting patients with doctors seamlessly.
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=flat-square&logo=nextdotjs)
+![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat-square&logo=tailwindcss)
+![Vercel](https://img.shields.io/badge/Live-Vercel-000000?style=flat-square&logo=vercel)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
-![React](https://img.shields.io/badge/React-18-blue)
-![Next.js](https://img.shields.io/badge/Next.js-14-black)
-![Tailwind](https://img.shields.io/badge/Tailwind-CSS-38B2AC)
-![Vercel](https://img.shields.io/badge/Deployed-Vercel-black)
-![License](https://img.shields.io/badge/License-MIT-blue)
+**Full‑stack healthcare appointment platform** connecting patients with doctors.  
+Built by **Biruk Tsegaye** – Senior Full‑Stack Engineer (7+ years of experience).
+
+---
 
 ## 🚀 Live Demo
-**[View Live App →](https://telehealth-booking-eta.vercel.app/)**
+https://telehealth-booking-eta.vercel.app/
 
-## ✨ Features
-- 🩺 **Doctor Selection** — Browse specialists (General, Pediatric, Cardiology, Dermatology)
-- 📅 **Appointment Scheduling** — Select doctor + time slot
-- 👤 **Patient Dashboard** — View & manage bookings
-- 🔐 **Authentication** — JWT‑based secure login
-- 📱 **Responsive** — Works on mobile, tablet & desktop
-- ♿ **Accessible** — ARIA labels, semantic HTML
+## ✨ Key Features
+- 🩺 **Doctor Selection** – Browse by specialty (General, Pediatric, Cardiology, Dermatology)
+- 📅 **Appointment Scheduling** – Select doctor + time slot with real‑time availability
+- 👤 **Patient Dashboard** – View, manage & cancel bookings
+- 🔐 **Authentication** – JWT‑based secure login / registration
+- 📱 **Fully Responsive** – Optimized for mobile, tablet & desktop
+- ♿ **Accessible** – ARIA labels, semantic HTML, keyboard navigable
 
 ## 🛠 Tech Stack
-| Layer | Technology |
-|-------|------------|
-| Frontend | Next.js 14, React 18, Tailwind CSS |
-| Backend | Node.js, Express |
-| Database | MongoDB (planned) |
-| Auth | JWT (JSON Web Tokens) |
-| Payments | Stripe (planned) |
-| Deployment | Vercel |
-
-## 📂 Project Structure
-├── src/
-│   ├── app/
-│   │   ├── page.tsx      # Home / landing page
-│   │   ├── layout.tsx    # Root layout
-│   │   └── ...
-│   ├── components/
-│   │   ├── DoctorCard.tsx
-│   │   ├── BookingForm.tsx
-│   │   └── ...
-│   └── lib/
-│       └── api.ts
-├── public/
-├── next.config.ts
-├── tailwind.config.ts
-├── package.json
-└── README.md
-
+Frontend    : Next.js 14, React 18, Tailwind CSS
+Backend     : Node.js, Express (planned)
+Database    : MongoDB (planned)
+Auth        : JWT (JSON Web Tokens)
+Payments    : Stripe (planned)
+Deployment  : Vercel (frontend)
 
 ## 🚦 Getting Started
+
 ```bash
 git clone https://github.com/birukdev12-senior/telehealth-booking.git
 cd telehealth-booking
 npm install
 npm run dev
-Open http://localhost:3000
+
+Open http://localhost:3000 in your browser.
 
 🔮 Roadmap
 
@@ -69,4 +46,9 @@ Open http://localhost:3000
 · MongoDB database connection
 · Stripe payment processing
 · Video consultation (WebRTC)
-· Admin dashboard
+· Admin dashboard for clinic management
+
+📜 License
+
+MIT – Free to use, modify, and deploy.
+
