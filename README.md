@@ -2,7 +2,7 @@
 
 ## 📝 **3. TeleHealth Booking README.md**
 
-`github.com/birukdev12-senior/telehealth-booking` ላይ አዲስ ፋይል `README.md` ፍጠርና ይህን ለጥፍ፦
+`github.com/birukdev12-senior/telehealth-booking` 
 
 ```markdown
 # 🏥 TeleHealth Booking App
